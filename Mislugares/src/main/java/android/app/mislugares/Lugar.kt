@@ -1,10 +1,12 @@
 package com.example.mislugares
 
 import android.app.mislugares.GeoPunto
+import android.app.mislugares.TipoLugar
 
 data class Lugar(val nombre: String,
                  var direccion: String = "",
                  var posicion: GeoPunto = GeoPunto.SIN_POSICION,
+                 var tipoLugar: TipoLugar,
                  var foto: String = "",
                  var telefono: Int = 0,
                  var url: String= "",
